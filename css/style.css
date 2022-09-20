@@ -1,61 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-.home {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    background: rgb(15, 23, 42);
-}
-
-.home .circle-svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../img/pc.jpg");
-    opacity: 1.5;
-    background-size: cover;
-    background-position: center;
-    clip-path: circle(65% at right -20%);
-}
-
-.circle-svg::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #D21717;
-    opacity: 0.7;
-    z-index: -5;
-}
-
-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 30px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-header a {
+nav a {
+    padding: 5px;
     display: block;
-    position: relative;
     max-width: 350px;
     text-decoration: none;
     color: #fff;
@@ -63,18 +8,13 @@ header a {
 
 }
 
-header .navigation {
+nav .navigation {
     position: relative;
     display: flex;
 
 }
 
-header .navigation li {
-    list-style: none;
-
-}
-
-header .navigation li a {
+nav .navigation a {
     display: inline-block;
     color: #fff;
     font-weight: 300;
@@ -87,7 +27,7 @@ header .navigation li a {
     overflow: hidden;
 }
 
-header .navigation li a:before {
+nav .navigation a:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -104,176 +44,83 @@ header .navigation li a:before {
     transition-timing-function: ease-out;
 }
 
-header .navigation li a:hover:before,
-.header .navigation li a:focus:before,
-header .navigation li a:active:before {
+nav .navigation a:hover:before,
+.header .navigation a:focus:before,
+header .navigation a:active:before {
     right: 0;
 }
 
 
 
 
-
-.context {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 40px;
-
-}
-
-.context .textbox {
-    position: relative;
+.about-text {
     max-width: 600px;
-   
-
 }
 
-.context .textbox h2 {
-    color: #fff;
+.about .about-text h2 {
     font-size: 3em;
-    margin-bottom: 10px;
     line-height: 1.4em;
     font-weight: 700;
 }
 
-.context .textbox p {
-    color: #fff;
-}
 
-.context .textbox a {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 8px 20px;
+.about .about-text a {
     background: #D21717;
-    color: #fff;
     border-radius: 40px;
     letter-spacing: 1px;
     text-decoration: none;
 }
-.context .textbox a:hover{
+
+.about .about-text a:hover {
     background: #fff;
     color: black;
 }
 
-.context .textbox a .bx {
+
+
+.about .about-text a .bx {
     font-size: 20px;
 
 }
 
-.social {
-    position: absolute;
-    bottom: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-.social li {
-    list-style: none;
-}
-
-.social li a {
+.social a {
     display: inline-block;
-    margin-left: 20px;
     font-size: 40px;
     color: #D21717;
 }
-.social li a:hover{
+
+.social a:hover {
     color: #fff;
 }
 
 
-
-
-
-.perfil {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: rgb(22, 30, 51);
-
+.text-perfil {
+    max-width: 650px;
 }
 
-/* circulos seccion de perfil  */
-.circle-perfil{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../img/photo.png");
-    background-size:620px;
-    background-repeat: no-repeat;
-    background-position: right;
-    clip-path: circle(29% at right 15% top 50%);
-    z-index: 1;
-    
-}
-
-
-  
-
-.circle-perfil2{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #D21717;
-    clip-path: circle(20% at right 47% top 40%);
-}
-
-.content-perfil{
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 40px;
-    z-index: 9999;
-}
-.content-perfil .text-perfil{
-    position: relative;
-    max-width: 600px;
-}
-
-.content-perfil .text-perfil h2{
+.text-perfil h2 {
     color: #fff;
     font-size: 3em;
     margin-bottom: 10px;
     line-height: 1.4em;
     font-weight: 700;
 }
-.content-perfil .text-perfil p{
-    color: #fff;
-}
-
-.perfil-img img{
-    position: absolute;
-    width: 530px;
-    right: 0.10%;
-    bottom: -50%;
-}
-
 
 
 
 /* seccion de skills  */
 
-.skills{
+.skills {
     width: 100%;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background: rgb(15, 23, 42);
 
+}
+
+
+
+@media screen and (max-width: 800px) {
+    header .navigation {
+        display: none;
+
+    }
 }

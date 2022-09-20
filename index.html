@@ -7,72 +7,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Web Antonio Mcs</title>
     <link rel="stylesheet" href="css/style.css">
-
-    <!-- google fonts  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylify.basic.css">
 
     <!-- iconos de boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
-  
+    <!-- scroll AOS anmation CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    
+    <!-- jquery cdn -->
+    <script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+
 </head>
 <body>
-    <section class="home">
-        <div class="circle-svg"></div>
-        <header>
-           <a href="#" > D a n i l o  M a c e a</a>
-           <ul class="navigation">
-               <li><a href="#">Home</a></li>
-               <li><a href="#">Sobre My</a></li>
-               <li><a href="#">Skills</a></li>
-               <li><a href="#">Proyectos</a></li>
-               <li><a href="#">Contacto</a></li>
-           </ul>
-        </header>
-
-        <div class="context">
-            <div class="textbox">
-                <h2>Desarrollador Web Jr FrontEnd</h2>
-                <p>Hola, Mi nombre es Danilo Antonio Macea
-                    Santos, soy de colombia y soy desarrollador web
-                    en el area frontend, me apasiona la web, quiero
-                    vivirla y aportar mi talento para mejorarla</p>
-                <a href="#"><i class='bx bxs-download'></i> Dowload CV</a>
+    <!-- menu de nacegacion -->
+    <section class="contain bg-primary p-b6" id="home">
+    <div class="contain-xlarge m-auto p-x2 p-y3 justify-between align-center">
+        <nav class="flex justify-between align-center w-full p-4">
+            <a href="#" > D a n i l o  M a c e a</a>
+            <div class="navigation">
+                <a href="">Home</a>
+                <a href="">Sobre</a>
+                <a href="">Skills</a>
+                <a href="">Proyectos</a>
+                <a href="">Contacto</a>
             </div>
+        </nav>
+        <div class="grid col-2 p-3 mid-col-1  small-col-1  m-t2">
+            <div class="contain about w-full p-x5 p-y5 col-span-1">
+                <div class="about-text relative">
+                    <h2 data-aos="fade-right" class="text-ligth m-b3">Developer Web FullStack</h2>
+                    <p data-aos="fade-right" class="text-ligth">Hola, Mi nombre es Danilo Antonio Macea
+                        Santos, soy de colombia y soy desarrollador web
+                        en el area frontend, me apasiona la web, quiero
+                        vivirla y aportar mi talento para mejorarla</p>
+                    <a href="#" class="m-t5 text-ligth p-x3 p-y2 block-inline" data-aos="fade-right"><i class='bx bxs-download'></i> Dowload CV</a>
+                </div>
+
+                <div class="content m-t6 social absolute flex f-gap-column5 justify-between align-center">
+                    <a href="#" class=""><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                </div>
+
+            </div>
+            <div class="contain photo">
+                <!-- <img src="img/myphoto.png" alt="" > -->
+            </div>
+
         </div>
-        <ul class="social">
-            <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
-            <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
-            <li><a href="#"><i class='bx bxl-github'></i></a></li>
-        </ul>
-
+    </div>
     </section>
-    <section class="perfil">
-        <div class="circle-perfil "></div>
-        <div class="circle-perfil2"></div>
 
-        <div class="content-perfil">
-            <div class="text-perfil">
+
+    <!-- sobre my / about  -->
+
+    <section class="contain bg-secondary  perfil" id="sobremy">
+        <div class=" contain grid col-2 p-3 mid-col-1  small-col-1 w-full p-6 content-perfil">
+            <div class="text-perfil p-x5 p-y5">
                 <h2>Sobre my</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptatibus eius sed blanditiis laudantium consequuntur in ex modi harum officiis, accusamus recusandae. Sed officia magni veniam cupiditate consectetur alias? Soluta doloribus neque labore earum laudantium blanditiis aliquid ullam reprehenderit officiis natus! Nihil, ex nemo ducimus adipisci corporis error optio odit eaque iste sequi distinctio aliquid unde tempore earum atque numquam.</p><br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt mollitia quos dolores aliquid explicabo aliquam nemo assumenda, vitae, at inventore sequi dignissimos repellat, odit ipsam quasi. Reiciendis, exercitationem necessitatibus earum dicta rem nesciunt suscipit voluptates rerum nihil quis dolore fugiat?</p>
+                <p class="text-ligth">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptatibus eius sed blanditiis laudantium consequuntur in ex modi hrum officiis, accusamus recusandae. Sed officia magni veniam cupiditate consectetur alias? Soluta doloribus neque labore earum laudantium blanditiis aliquid ullam reprehenderit officiis natus! Nihil, ex nemo ducimus adipisci corporis error optio odit eaque iste sequi distinctio aliquid unde tempore earum atque numquam.</p>
+
+                <p class="text-ligth">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt mollitia quos dolores aliquid explicabo aliquam nemo assumenda, vitae, at inventore sequi dignissimos repellat, odit ipsam quasi. Reiciendis, exercitationem necessitatibus earum dicta rem nesciunt suscipit voluptates rerum nihil quis dolore fugiat?</p>
             </div>
-            <!-- <div class="perfil-img">
+            
+            <div class="contain">
                 <img src="img/myphoto.png" alt="">
-            </div> -->
+            </div>
         </div>
     </section>
+
+
 
     <section class="skills">
+       
+
     </section>
  
 
 
     
-    
+        <!-- scroll AOS anmation CDN-SCRIPT -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/scroll.js"></script>
+
+        <script>
+            AOS.init();
+        </script>
 </body>
 </html>
