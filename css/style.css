@@ -53,10 +53,6 @@ header .navigation a:active:before {
 
 
 
-.about-text {
-    max-width: 600px;
-}
-
 .about .about-text h2 {
     font-size: 3em;
     line-height: 1.4em;
@@ -83,9 +79,14 @@ header .navigation a:active:before {
 
 }
 
+
+.photo img {
+    width: 100% auto;
+    filter: invert(86%);
+}
+
 .social a {
-    display: inline-block;
-    font-size: 40px;
+    font-size: 50px;
     color: #D21717;
 }
 
@@ -94,9 +95,6 @@ header .navigation a:active:before {
 }
 
 
-.text-perfil {
-    max-width: 650px;
-}
 
 .text-perfil h2 {
     color: #fff;
@@ -119,7 +117,7 @@ header .navigation a:active:before {
 
 
 @media screen and (max-width: 800px) {
-    header .navigation {
+    nav .navigation {
         display: none;
 
     }
