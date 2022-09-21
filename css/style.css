@@ -87,13 +87,32 @@ header .navigation a:active:before {
 
 .social a {
     font-size: 50px;
-    color: #D21717;
+   
 }
+
 
 .social a:hover {
     color: #fff;
 }
 
+
+/* perfil */
+
+.profile{
+    width: auto;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: all 0.5s ease-out;
+  
+}
+
+.profile:hover{
+     box-shadow: 0 4px 2px 2px #fff;
+}
+
+.profile img{
+    width: 100%;
+}
 
 
 .text-perfil h2 {
@@ -122,3 +141,7 @@ header .navigation a:active:before {
 
     }
 }
+
+
+
+
