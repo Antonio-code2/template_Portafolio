@@ -38,6 +38,7 @@ html{
     --color-ligth: #FFFFFF;
     --color-dark: #212121;
     --color-danger: #D21717;
+    --color-gray: rgb(134, 127, 127);
 }
 
 /* background property */
@@ -63,6 +64,10 @@ html{
 }
 .text-danger{
     color: var(--color-danger);
+}
+
+.text-gray-200{
+    color: var(--color-gray);
 }
 
 
@@ -145,6 +150,10 @@ img {
 /* padding-bottom */
 .p-b6 {
     padding-bottom: 3rem; /* 48px */
+}
+/* padding-bottom*/
+.p-t6{
+    padding-top: 3rem;
 }
 
 
@@ -381,7 +390,13 @@ img {
 .col-4 {
     grid-template-columns: repeat(4, 1fr);
 }
+.col-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
 
+.col-6 {
+    grid-template-columns: repeat(6, 1fr);
+}
 
 
 /* cantidad de colummnas a ocupar */
@@ -420,6 +435,13 @@ img {
 
     .mid-col-4 {
         grid-template-columns: repeat(4, 1fr);
+    }
+    .mid-col-5 {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .mid-col-6 {
+        grid-template-columns: repeat(6, 1fr);
     }
 
     
@@ -462,6 +484,13 @@ img {
 
     .small-col-4 {
         grid-template-columns: repeat(4, 1fr);
+    }
+    .mid-col-span-5 {
+        grid-column: span 5;
+    }
+
+    .mid-col-span-6 {
+        grid-column: span 6;
     }
 
     
@@ -649,10 +678,63 @@ h6 {
     text-align: left;
 }
 
+/* ////////////////////////////// */
+/* FONST SIZE  */
+/* ///////////////////////////// */
+
+.fonts-1{
+    font-size: 0.3125rem ; /* 5px */
+}
+.fonts-2{
+    font-size:0.625rem ; /* 10px */
+}
+.fonts-2\1{
+    font-size: 0.75rem; /* 12px */
+}
+.fonts-3{
+    font-size: 0.9375rem; /* 15px */
+}
+.fonts-4{
+    font-size: 1.25rem; /* 20px */
+}
+.fonts-4\1{
+    font-size: 1.375; /* 22px */
+}
+.fonts-5{
+    font-size: 1.5625rem; /* 25px */
+}
+
+.fonts-6{
+    font-size: 1.875rem; /* 30px */
+    
+}
+
+/* font-weight */
+.font-ligth{
+    font-weight: 300;
+}
+.font-normal{
+    font-weight: 400;
+}
+.font-medio{
+    font-weight: 500;
+}
+.font-smbold{
+    font-weight: 600;
+}
+.font-bold{
+    font-weight: 700;
+}
+.font-xbold{
+    font-weight: 800;
+}
+.font-2xbold{
+    font-weight: 900;
+}
+
 
 /* ////////////////////////////// */
 /* ESTILOS PROPIOS  */
 /* ///////////////////////////// */
-
 
 

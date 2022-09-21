@@ -99,19 +99,20 @@ header .navigation a:active:before {
 /* perfil */
 
 .profile{
-    width: auto;
     border-radius: 100%;
     overflow: hidden;
     transition: all 0.5s ease-out;
-  
+    box-shadow: 0 4px 2px 2px #fff;
 }
 
 .profile:hover{
-     box-shadow: 0 4px 2px 2px #fff;
+    box-shadow: 0 4px 2px 2px rgb(236, 5, 5);
 }
 
 .profile img{
+    position: relative;
     width: 100%;
+    bottom: -10%;
 }
 
 
@@ -127,18 +128,16 @@ header .navigation a:active:before {
 
 /* seccion de skills  */
 
-.skills {
-    width: 100%;
-    background: rgb(15, 23, 42);
-
+.tecnology{
+    background: #fff;
+    border-radius: 50%;
+    width: 100px;
+    box-shadow: 0 3px 2px 2px #D21717;
 }
 
-
-
-@media screen and (max-width: 800px) {
-    nav .navigation {
-        display: none;
-
+@media screen and (max-width: 992px) {
+    nav .navigation{
+        display:none;
     }
 }
 
