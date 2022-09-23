@@ -34,11 +34,12 @@ html{
     --fonts-poppins: 'Poppins', sans-serif;
     /*| COLORS */
     --color-primary: linear-gradient(63deg, rgba(15,23,42,1) 46%, rgba(14,10,85,1) 100%);
-    --color-secondary: #161E33;
+    --color-secondary:  linear-gradient(46deg, rgba(15,23,42,1) 82%, rgba(10,7,57,1) 100%);
+    --color-secondary-2: #0f172a;
     --color-ligth: #FFFFFF;
     --color-dark: #212121;
     --color-danger: #D21717;
-    --color-gray: rgb(134, 127, 127);
+    --color-gray: rgb(212, 207, 207);
 }
 
 /* background property */
@@ -48,11 +49,17 @@ html{
 .bg-secondary{
     background: var(--color-secondary);
 }
+.bg-secondary-2{
+    background: var(--color-secondary-2);
+}
 .bg-dark{
     background: var(--color-dark);
 }
 .bg-danger{
     background: var(--color-danger);
+}
+.bg-ligth{
+    background: var(--color-ligth);
 }
 
 /* color */
@@ -66,7 +73,7 @@ html{
     color: var(--color-danger);
 }
 
-.text-gray-200{
+.text-gray{
     color: var(--color-gray);
 }
 
@@ -148,10 +155,17 @@ img {
 }
 
 /* padding-bottom */
+.p-b2{
+    padding-bottom: 0.75em;
+}
+
+.p-b3{
+    padding-bottom: 1.5rem;
+}
 .p-b6 {
     padding-bottom: 3rem; /* 48px */
 }
-/* padding-bottom*/
+/* padding-top*/
 .p-t6{
     padding-top: 3rem;
 }
@@ -709,6 +723,10 @@ h6 {
     
 }
 
+.fonts-7{
+    font-size: 3rem;
+}
+
 /* font-weight */
 .font-ligth{
     font-weight: 300;
@@ -730,6 +748,14 @@ h6 {
 }
 .font-2xbold{
     font-weight: 900;
+}
+
+/* viewport heigth and viewport width  */
+.v-h{
+    height: 100vh;
+}
+.v-w{
+    width: 100vw;
 }
 
 

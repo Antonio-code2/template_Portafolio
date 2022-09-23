@@ -22,10 +22,10 @@
     <link rel="stylesheet" href="https://unpkg.com/microtip/microtip.css">
 
 </head>
-<body>
+<body class="bg-primary">
     <!-- menu de nacegacion -->
-    <section class="contain bg-primary p-b6" id="home">
-        <div class="contain-xlarge m-auto p-x2 p-y3 justify-between align-center">
+    <section class="contain" id="home">
+        <div class="contain-xlarge m-auto p-x2 p-y3 ">
 
             <nav class="flex justify-between align-center w-full p-4">
                 <a href="#" > D a n i l o  M a c e a</a>
@@ -33,7 +33,7 @@
                     <a href="">Home</a>
                     <a href="http://127.0.0.1:5500/index.html#sobremy">Sobre My</a>
                     <a href="http://127.0.0.1:5500/index.html#skills">Skills</a>
-                    <a href="">Proyectos</a>
+                    <a href="http://127.0.0.1:5500/index.html#proyects">Proyectos</a>
                     <a href="">Contacto</a>
                 </div>
             </nav>
@@ -52,7 +52,7 @@
                 <div class="contain photo w-full m-auto p-x5 p-y5 text-center">
                 <img src="assets/img/logo-antonioMcs1.png" alt="">
                 <div class="content w-full m-t6 social  flex f-gap-column6 justify-center text-center align-center" >
-                    <a href="" class="text-danger"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="" class="text-danger"><i class='bx bxl-linkedin-square'></i></a>
                     <a href="#" class="text-danger"><i class='bx bxl-twitter'></i></a>
                     <a href="#" class="text-danger"><i class='bx bxl-github'></i></a>
                 </div>
@@ -65,27 +65,35 @@
 
     <!-- sobre my / about  -->
 
-    <section class="contain bg-secondary  perfil" id="sobremy">
-        <div class="contain-xlarge m-auto grid col-2 mid-col-1  small-col-1 w-full p-6 content-perfil">
-            <div class="text-perfil w-auto p-x5 p-y5" data-aos="zoom-in">
-                <h2>Sobre my</h2>
-                <p class="text-ligth">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptatibus eius sed blanditiis laudantium consequuntur in ex modi hrum officiis, accusamus recusandae. Sed officia magni veniam cupiditate consectetur alias? Soluta doloribus neque labore earum laudantium blanditiis aliquid ullam reprehenderit officiis natus! Nihil, ex nemo ducimus adipisci corporis error optio odit eaque iste sequi distinctio aliquid unde tempore earum atque numquam.</p>
-
-                <p class="text-ligth">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt mollitia quos dolores aliquid explicabo aliquam nemo assumenda, vitae, at inventore sequi dignissimos repellat, odit ipsam quasi. Reiciendis, exercitationem necessitatibus earum dicta rem nesciunt suscipit voluptates rerum nihil quis dolore fugiat?</p>
-            </div>
+    <section class="contain   w-full " id="sobremy">
+        <div class="contain-xlarge m-auto p-x2 p-y6 ">
             
-            <div class="contain w-auto profile shadow-pop-br">
-                <img src="assets/img/myphoto.png" alt="">
+            <div class="grid col-2 mid-col-1 small-col-1 content-perfil p-3 m-t2">
+                <div class="contain text-perfil w-full p-x5 p-y5" data-aos="zoom-in">
+                    <h2>Sobre my</h2>
+                    <p class="text-ligth">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptatibus eius sed blanditiis laudantium consequuntur in ex modi hrum officiis, accusamus recusandae. Sed officia magni veniam cupiditate consectetur alias? Soluta doloribus neque labore earum laudantium blanditiis aliquid ullam reprehenderit officiis natus! Nihil, ex nemo ducimus adipisci corporis error optio odit eaque iste sequi distinctio aliquid unde tempore earum atque numquam.</p>
+
+                    <p class="text-ligth">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt mollitia quos dolores aliquid explicabo aliquam nemo assumenda, vitae, at inventore sequi dignissimos repellat, odit ipsam quasi. Reiciendis, exercitationem necessitatibus earum dicta rem nesciunt suscipit voluptates rerum nihil quis dolore fugiat?</p>
+
+                </div>
+                
+                <div class="contain w-full p-x5 p-y5 profile">
+                    <img src="assets/img/myphoto.png" alt="">
+                </div>
             </div>
         </div>
     </section>
 
     <!-- skills, habilidades -->
 
-    <section class="skills contain  bg-secondary p-t6" id="skills">
-        <article class="contain-xlarge m-auto p-x2 p-y3 justify-between align-center">
+    <section class="contain skills" id="skills">
+        <div class="contain-xlarge m-auto p-x2 p-y3">
+            <header class="header w-full text-center ">
+                <h1 class="text-ligth fonts-7">Skills</h1>
+            </header>
+
             <div class="contain info p-x6 w-full w-auto">
-                <h3 class="text-gray-200 font-ligth"><span class="text-ligth font-medio">Skill FrontEnd | </span> Sitios asombrosos, receptivos y minimalistas</h3>
+                <h3 class="text-gray font-ligth"><span class="text-ligth font-smbold">Skill FrontEnd | </span> Sitios asombrosos, receptivos y minimalistas</h3>
             </div>
 
             <div class="grid col-6 p-x6 p-y4 justify-center mid-col-4 small-col-3">
@@ -110,7 +118,7 @@
             </div>
 
             <div class="contain info p-x6 p-t6 w-full w-auto">
-                <h3 class="text-gray-200 font-ligth"><span class="text-ligth font-medio">Skill BackEnd | </span> Pasion Naciente</h3>
+                <h3 class="text-gray font-ligth"><span class="text-ligth font-smbold">Skill BackEnd | </span> Pasion Naciente</h3>
             </div>
 
             <div class="grid col-6 p-x6 p-y4 justify-center mid-col-4 small-col-3">
@@ -133,7 +141,7 @@
 
 
             <div class="contain info p-x6 p-t6 w-full w-auto">
-                <h3 class="text-gray-200 font-ligth"><span class="text-ligth font-medio">Skill Tools | </span> Habilidades Adicionales</h3>
+                <h3 class="text-gray font-ligth"><span class="text-ligth font-smbold">Skill Tools | </span> Habilidades Adicionales</h3>
             </div>
 
             <div class="grid col-6 p-x6 p-y4 justify-center mid-col-4 small-col-3">
@@ -145,8 +153,100 @@
                 </div>
                
             </div>
-        </article>
+        </div>
           
+    </section>
+
+    <!-- secttion proyectos  -->
+    <section class="contain proyects" id="proyects">
+        <div class="contain-xlarge m-auto p-x2 p-y3 m-t6">
+            <header class="header w-full text-center ">
+                <h1 class="text-ligth fonts-7">Proyects</h1>
+            </header>
+
+            <div class="grid col-3 mid-col-2 small-col-1">
+                <article class="contain bg-primary card h-auto w-auto"  data-aos="zoom-in">
+                    <!-- imagen del proyecto  -->
+                    <div class="card-img w-full">
+                        <img src="assets/img/pc.jpg" alt="imagen_proyect" class="w-full">
+                    </div>
+                    <div class="card-text text-ligth p-x4 p-y3">
+                        <h2>Proyects <span class="type">Empresa</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas assumenda a sed aperiam? Aliquid, quaerat architecto pariatur velit reiciendis adipisci?</p>
+                    </div>
+                    <div class="card-tecnology flex justify-between p-x4 p-b3 align-center">
+                        <div class="tec flex">
+                            <span class=" text-ligth fonts-6" aria-label="HTML5" data-microtip-position="top" role="tooltip"><i class='bx bxl-html5'></i></span>
+
+                            <span class=" text-ligth fonts-6" aria-label="CSS3" data-microtip-position="top" role="tooltip"><i class='bx bxl-css3' ></i></span>
+
+                            <span class=" text-ligth fonts-6" aria-label="GitHub" data-microtip-position="top" role="JavaScript"><i class='bx bxl-javascript' ></i></span>
+
+                            <span class=" text-ligth fonts-6" aria-label="TailwindsCSS" data-microtip-position="top" role="tooltip"><i class='bx bxl-tailwind-css' ></i></span> 
+                        </div>
+                        <div class="open_proyect flex">
+                            <a href="" class=" text-ligth fonts-6"><i class='bx bx-link-external'></i></a >
+
+                            <a href="" class=" text-ligth fonts-6"><i class='bx bxl-github' ></i></a >
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="contain card h-auto w-auto bg-primary"  data-aos="zoom-in">
+                    <!-- imagen del proyecto  -->
+                    <div class="card-img w-full">
+                        <img src="assets/img/pc.jpg" alt="imagen_proyect" class="w-full">
+                    </div>
+                    <div class="card-text text-ligth p-x4 p-y3">
+                        <h2>Proyects <span class="type">Personal</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas assumenda a sed aperiam? Aliquid, quaerat architecto pariatur velit reiciendis adipisci?</p>
+                    </div>
+                    <div class="card-tecnology flex justify-between p-x4 p-b3 align-center">
+                        <div class="tec flex">
+                            <span class=" text-ligth fonts-6" aria-label="HTML5" data-microtip-position="top" role="tooltip"><i class='bx bxl-html5'></i></span>
+
+                            <span class=" text-ligth fonts-6" aria-label="CSS3" data-microtip-position="top" role="tooltip"><i class='bx bxl-css3' ></i></span>
+
+                            <span class=" text-ligth fonts-6" aria-label="GitHub" data-microtip-position="top" role="JavaScript"><i class='bx bxl-javascript' ></i></span>
+
+                            <span class=" text-ligth fonts-6" aria-label="TailwindsCSS" data-microtip-position="top" role="tooltip"><i class='bx bxl-tailwind-css' ></i></span> 
+                        </div>
+                        <div class="open_proyect flex">
+                            <a href="" class=" text-ligth fonts-6"><i class='bx bx-link-external'></i></a >
+
+                            <a href="" class=" text-ligth fonts-6"><i class='bx bxl-github' ></i></a >
+                        </div>
+                    </div>
+                </article>
+
+                <article class="contain card h-auto w-auto bg-primary"  data-aos="zoom-in">
+                    <!-- imagen del proyecto  -->
+                    <div class="card-img w-full">
+                        <img src="assets/img/pc.jpg" alt="imagen_proyect" class="w-full">
+                    </div>
+                    <div class="card-text text-ligth p-x4 p-y3">
+                        <h2>Proyects <span class="type">Colaborativo</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas assumenda a sed aperiam? Aliquid, quaerat architecto pariatur velit reiciendis adipisci?</p>
+                    </div>
+                    <div class="card-tecnology flex justify-between p-x4 p-b3 align-center">
+                        <div class="tec flex">
+                            <span class=" text-ligth fonts-6" aria-label="HTML5" data-microtip-position="top" role="tooltip"><i class='bx bxl-html5'></i></span>
+
+                            <span class=" text-ligth fonts-6" aria-label="CSS3" data-microtip-position="top" role="tooltip"><i class='bx bxl-css3' ></i></span>
+
+                            <span class=" text-ligth fonts-6" aria-label="GitHub" data-microtip-position="top" role="JavaScript"><i class='bx bxl-javascript' ></i></span>
+
+                            <span class=" text-ligth fonts-6" aria-label="TailwindsCSS" data-microtip-position="top" role="tooltip"><i class='bx bxl-tailwind-css' ></i></span> 
+                        </div>
+                        <div class="open_proyect flex">
+                            <a href="" class=" text-ligth fonts-6"><i class='bx bx-link-external'></i></a >
+
+                            <a href="" class=" text-ligth fonts-6"><i class='bx bxl-github' ></i></a >
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
     </section>
  
 

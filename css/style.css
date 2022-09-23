@@ -81,13 +81,13 @@ header .navigation a:active:before {
 
 
 .photo img {
-    width: 100% auto;
+    width: 100% ;
     filter: invert(86%);
 }
 
 .social a {
     font-size: 50px;
-   
+
 }
 
 
@@ -98,21 +98,22 @@ header .navigation a:active:before {
 
 /* perfil */
 
-.profile{
+.profile {
     border-radius: 100%;
     overflow: hidden;
     transition: all 0.5s ease-out;
     box-shadow: 0 4px 2px 2px #fff;
 }
 
-.profile:hover{
+.profile:hover {
     box-shadow: 0 4px 2px 2px rgb(236, 5, 5);
 }
 
-.profile img{
+.profile img {
     position: relative;
     width: 100%;
     bottom: -10%;
+    right: -5%;
 }
 
 
@@ -128,19 +129,86 @@ header .navigation a:active:before {
 
 /* seccion de skills  */
 
-.tecnology{
+.tecnology {
     background: #fff;
     border-radius: 50%;
     width: 100px;
     box-shadow: 0 3px 2px 2px #D21717;
 }
 
-@media screen and (max-width: 992px) {
-    nav .navigation{
-        display:none;
-    }
+
+/* seccion de proyectos  */
+.card{
+    border-radius: 1%;
+    overflow: hidden;
+    box-shadow: 0px 0px 3px 0px #1707f3;
+    
+}
+
+.card:hover{
+    box-shadow: 2px 0px 5px 0px #1707f3;
 }
 
 
 
+.card-img{
+    max-height: 300px;
+    overflow: hidden;
+}
+.card-img img{
+    overflow: hidden;
+    opacity: 1;
+    transition: all 1000ms;
+}
+.card-img img:hover{
+    transform: scale(1.1);
+    filter: brightness(.5);
+}
 
+.card-text{
+    height: 17rem;
+    overflow: hidden;
+}
+.card-text h2 .type{
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 10%;
+    border: 1px solid rgb(102, 101, 101);
+    margin-right: 40px;
+    color: rgb(189, 183, 183);
+    bottom: 6px;
+    position: relative;
+    cursor: pointer;
+}
+.card-text h2 .type:hover{
+    color: #fff;
+}
+
+.tec span{
+    display: flex;
+    padding: 5px;
+    border-radius: 100%;
+    background: #D21717;
+    margin-left: 5px;
+    transition: all .2s;
+}
+
+.tec span:hover{
+    background: #0E0C4E;
+}
+
+.tec span:not(:first-child){
+    margin-left: -.5rem;
+}
+
+.open_proyect a{
+    margin-left: 2px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    nav .navigation {
+        display: none;
+    }
+}
