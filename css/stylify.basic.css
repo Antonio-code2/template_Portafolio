@@ -307,6 +307,9 @@ img {
 .m-t6{
     margin-top: 3rem;
 }
+.m-t7{
+    margin-top: 5rem;
+}
 
 
 .m-l1 {
@@ -499,14 +502,8 @@ img {
     .small-col-4 {
         grid-template-columns: repeat(4, 1fr);
     }
-    .mid-col-span-5 {
-        grid-column: span 5;
-    }
 
-    .mid-col-span-6 {
-        grid-column: span 6;
-    }
-
+   
     
 
     /* cantidad de colummnas a ocupar */
@@ -526,6 +523,40 @@ img {
     .small-col-span-4 {
         grid-column: span 4;
     }
+    .small-col-span-5 {
+        grid-column: span 5;
+    }
+
+    .small-col-span-6 {
+        grid-column: span 6;
+    }
+
+    /* padding 576 */
+    .sm-p-1 {
+        padding: 0.25rem; /* 4px */
+    }
+    
+    .sm-p-2 {
+        padding: 0.75rem; /* 12px */
+    }
+    
+    .sm-p-3 {
+        padding: 1rem; /*16px*/
+    }
+    
+    .sm-p-4 {
+        padding: 1.5rem; /*24px*/
+    }
+    
+    .sm-p-5 {
+        padding: 2rem /*32px*/
+    }
+    
+    .sm-p-6 {
+        padding: 3rem; /* 48px */
+    }
+
+
 
 }
 
