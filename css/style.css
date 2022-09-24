@@ -94,14 +94,13 @@ header .nav-menu a:active:before {
     }
 
     .nav-menu{
-
         display: flex;
         flex-direction: column;
         margin-right: 20px;
         position: fixed;
         background: linear-gradient(63deg, rgba(15,23,42,1) 46%, rgba(14,10,85,1) 100%);
         left: 0;
-        top:  80px;
+        top:  95px;
         width: 100%;
         padding: 20px 0;
 
@@ -120,7 +119,7 @@ header .nav-menu a:active:before {
     }
     .nav-item a{
         color: #fff;
-        font-size: 30px;
+        font-size: 20px;
     }
     .toggle{
         display: block;
