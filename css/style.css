@@ -1,5 +1,4 @@
-
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -7,13 +6,14 @@
 
 }
 
-.logo{
+.logo {
     color: #fff;
     font-size: 30px;
-    line-height: 55px;
+
     text-decoration: none;
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     list-style: none;
 
@@ -22,14 +22,15 @@
 
 
 
-.toggle{
+.toggle {
     border: none;
     background: none;
     cursor: pointer;
     display: none;
 
 }
-.toggle .bx-menu-alt-right{
+
+.toggle .bx-menu-alt-right {
     font-size: 30px;
 }
 
@@ -72,7 +73,7 @@ header .nav-menu a:active:before {
     right: 0;
 }
 
-.toggle{
+.toggle {
     border: none;
     background: none;
     color: #fff;
@@ -84,49 +85,51 @@ header .nav-menu a:active:before {
 
 
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
 
-   
-    .logo{
+
+    .logo {
         font-size: 20px;
         line-height: 60px;
         margin-left: 10px;
     }
 
-    .nav-menu{
+    .nav-menu {
         display: flex;
         flex-direction: column;
         margin-right: 20px;
         position: fixed;
-        background: linear-gradient(63deg, rgba(15,23,42,1) 46%, rgba(14,10,85,1) 100%);
+        background: linear-gradient(63deg, rgba(15, 23, 42, 1) 46%, rgba(14, 10, 85, 1) 100%);
         left: 0;
-        top:  95px;
+        top: 95px;
         width: 100%;
         padding: 20px 0;
 
-        height:  calc(100% - 60px);
-        overflow-y: auto ;
+        height: calc(100% - 60px);
+        overflow-y: auto;
         left: 100%;
-        transition: left 0.3s ;
+        transition: left 0.3s;
         z-index: 1;
     }
 
-    .nav-item{
+    .nav-item {
         line-height: 70px;
         display: block;
-        
+
         width: 100%;
     }
-    .nav-item a{
+
+    .nav-item a {
         color: #fff;
         font-size: 20px;
     }
-    .toggle{
+
+    .toggle {
         display: block;
         margin-right: 20px;
     }
 
-    .nav-menu-visible{
+    .nav-menu-visible {
         left: 0;
     }
 }
@@ -163,7 +166,7 @@ header .nav-menu a:active:before {
 
 
 .photo img {
-    width: 100% ;
+    width: 100%;
     filter: invert(86%);
 }
 
@@ -180,32 +183,40 @@ header .nav-menu a:active:before {
 
 /* perfil */
 
-.profile {
-    border-radius: 100%;
-    overflow: hidden;
-    transition: all 0.5s ease-out;
-    box-shadow: 0px 0px 1px 0px #1707f3;
-}
-
-.profile:hover {
-    box-shadow: 1px 0px 5px 1px #1707f3;
-}
-
-.profile img {
-    position: relative;
-    width: 100%;
-    bottom: -10%;
-    right: -5%;
-}
 
 
-.text-perfil h2 {
-    color: #fff;
-    font-size: 3em;
-    margin-bottom: 10px;
-    line-height: 1.4em;
-    font-weight: 700;
+.about-card{
+   /*  background: #612525; */
+   background: linear-gradient(47deg, rgba(13,0,0,1) 0%, rgba(130,3,3,1) 44%, rgba(212,6,6,1) 100%);
+    border-radius: 1%;
+    color: white;
+    display: grid;
+    grid-template-rows: auto;
+    height: 200px;
+  
+    box-shadow: 0px 0px 6px 4px #D21717;
 }
+.about-card .header-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-card .header-card span{
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.about-card .body-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
 
 
 
@@ -222,38 +233,41 @@ header .nav-menu a:active:before {
 
 
 /* seccion de proyectos  */
-.card{
+.card {
     border-radius: 1%;
     overflow: hidden;
     box-shadow: 0px 0px 3px 0px #1707f3;
-    
+
 }
 
-.card:hover{
+.card:hover {
     box-shadow: 2px 0px 5px 0px #1707f3;
 }
 
 
 
-.card-img{
+.card-img {
     max-height: 300px;
     overflow: hidden;
 }
-.card-img img{
+
+.card-img img {
     overflow: hidden;
     opacity: 1;
     transition: all 1000ms;
 }
-.card-img img:hover{
+
+.card-img img:hover {
     transform: scale(1.1);
     filter: brightness(.5);
 }
 
-.card-text{
+.card-text {
     height: 17rem;
     overflow: hidden;
 }
-.card-text h2 .type{
+
+.card-text h2 .type {
     font-size: 10px;
     padding: 5px;
     border-radius: 10%;
@@ -264,11 +278,12 @@ header .nav-menu a:active:before {
     position: relative;
     cursor: pointer;
 }
-.card-text h2 .type:hover{
+
+.card-text h2 .type:hover {
     color: #fff;
 }
 
-.tec span{
+.tec span {
     display: flex;
     padding: 5px;
     border-radius: 100%;
@@ -277,15 +292,15 @@ header .nav-menu a:active:before {
     transition: all .2s;
 }
 
-.tec span:hover{
+.tec span:hover {
     background: #0E0C4E;
 }
 
-.tec span:not(:first-child){
+.tec span:not(:first-child) {
     margin-left: -.5rem;
 }
 
-.open_proyect a{
+.open_proyect a {
     margin-left: 2px;
 }
 
@@ -296,8 +311,9 @@ header .nav-menu a:active:before {
         display: none;
     }
 }
-@media screen and (max-width:400px){
-    .tecnology{
+
+@media screen and (max-width:400px) {
+    .tecnology {
         width: 4rem;
     }
 }
