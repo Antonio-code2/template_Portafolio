@@ -7,6 +7,7 @@
     <title>Portafolio Web Antonio Mcs</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stylify.basic.css">
+   
 
     <!-- iconos de boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
@@ -26,6 +27,7 @@
 </head>
 <body class="bg-primary">
     
+    <!-- section home -->
     <section class="container w-full" id="home">
         <div class="container-xlarge m-auto p-4 sm-p-1">
             <nav class="nav p-4 w-full">
@@ -66,9 +68,7 @@
         </div>
     </section>
 
-
     <!-- sobre my / about  -->
-
     <section class="container m-t7 w-full " id="sobremy">
         <div class="container-xlarge m-auto p-4 sm-p-1">
             <header class="header w-full text-center p-2">
@@ -119,7 +119,6 @@
     </section>
 
     <!-- skills, habilidades -->
-
     <section class="container m-t7 skills" id="skills">
         <div class="container-xlarge m-auto p-4 sm-p-1">
             <header class="header w-full text-center p-6">
@@ -281,14 +280,66 @@
             </div>
         </div>
     </section>
+
+    <!-- section contact -->
+    <section class="container m-t7 contact bg-primary" id="contact">
+        <div class="container-xlarge m-auto p-4 sm-p-1 ">
+            <header class="header w-full text-center p-6 ">
+                <h1 class="text-ligth fonts-7">Contact My</h1>
+            </header>
+
+            <div class="container input-form text-ligth p-4">
+                <div class="message">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse obcaecati provident aut facere ad! Quod adipisci maxime sed laboriosam qui.</h4>
+                </div>
+
+                <div class="grid col-2 mid-col-1 small-col-1">
+                    <div class="container form">
+                        <form action="">
+                            <div class="container input-group flex justify-between">
+                                <div class="input-item flex flex-column">
+                                    <label for="email">Email</label>
+                                    <input type="text" placeholder="typing Send message" name="email" id="email">
+                                </div>
+                                <div class="input-item">
+                                    <label for="name">Name</label>
+                                    <input type="text" placeholder="typing Send message" name="name" id="name">
+                                </div>
+                            </div>
+                            <div class="container input-group flex justify-between">
+                                <div class="input-item">
+                                    <label for="asunto">Asunto</label>
+                                    <input type="text" placeholder="typing Send message" name="asunto" id="asunto">
+                                </div>
+                            </div>
+                            <div class="container input-group flex justify-between">
+                                <div class="input-item">
+                                    <p>Message</p>
+                                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="input-btn m-5 flex justify-center">
+                                <button type="submit">Send Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="ilustration">
+                        <img src="assets/img/send.png" alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
  
 
 
     
-        <!-- scroll AOS anmation CDN-SCRIPT -->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
+    <!-- scroll AOS anmation CDN-SCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
