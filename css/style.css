@@ -352,6 +352,39 @@ header .nav-menu a:active:before {
 
 
 
+/* section footer */
+
+.footer {
+    background: #010122;
+}
+
+.footer-logo div{
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.footer img{
+    width: 50px;
+}
+
+.footer-lema p{
+color: #928e8e;
+}
+
+.footer-social > .social{
+    color: #fcf9f9;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.footer-copy p{
+    color: #928e8e;
+    font-size: 15px;
+}
+
+
+
 @media screen and (max-width: 992px) {
     nav .navigation {
         display: none;
