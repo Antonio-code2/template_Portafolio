@@ -150,11 +150,12 @@ header .nav-menu a:active:before {
     border-radius: 40px;
     letter-spacing: 1px;
     text-decoration: none;
+    transition: all .2s ease-in-out;
 }
 
 .about .about-text a:hover {
-    background: #fff;
-    color: black;
+    background: #ffffff;
+    color: #000;
 }
 
 
@@ -172,6 +173,7 @@ header .nav-menu a:active:before {
 
 .social a {
     font-size: 50px;
+    transition: all .2s ease-in-out;
 
 }
 
@@ -233,6 +235,25 @@ header .nav-menu a:active:before {
 
 
 /* seccion de proyectos  */
+
+.btn-more .btn-link{
+    color: white;
+    background: #D21717;
+    padding: 0.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    align-items: center;
+    display: inline-flex;
+    transition: all .2s ease-in-out;
+
+}
+.btn-link:hover{
+    background: #ffffff;
+    color: #000;
+    
+}
+
+
 .card {
     border-radius: 1%;
     overflow: hidden;
