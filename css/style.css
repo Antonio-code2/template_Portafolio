@@ -166,9 +166,9 @@ header .nav-menu a:active:before {
 }
 
 
-.photo img {
-    width: 100%;
-    filter: invert(86%);
+.content-logo img {
+    width: 25rem;
+    
 }
 
 .social a {
