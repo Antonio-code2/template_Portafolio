@@ -63,7 +63,6 @@
     transition-property: right;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    -webkit-animation-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
 
