@@ -432,7 +432,7 @@ color: #928e8e;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     z-index: 99;
     background: #D21717;
-    
+    display: none;  
 }
 
 .btn-up .bx{
@@ -441,6 +441,6 @@ color: #928e8e;
     
 }
 
-.btn-scroll{
-    display: inline-block;
+.btn-show{
+    display: inline;
 }
